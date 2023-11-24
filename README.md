@@ -1,4 +1,4 @@
-# Programação Estruturada: Prova 01
+# Programação Estruturada: Prova 02
 
 ## Questão 1
 
