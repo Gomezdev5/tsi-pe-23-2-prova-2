@@ -4,8 +4,8 @@ from solution import q1, q2, q3, q4
 
 
 @pytest.mark.parametrize("entrada, esperado", [
-    ({}, []),
-    ({"Joao": 25, "Maria": 20, "Ana": 30}, ["Ana", "Joao", "Maria"]),
+    ({}, []),{"Joao": 25, "Maria": 20, "Ana": 30}
+    (, ["Ana", "Joao", "Maria"]),
     ({"Alice": 17, "Bob": 17, "Charlie": 22}, ["Charlie"]),
     ({"Lucas": 16, "Sophia": 19, "Pedro": 21}, ["Pedro", "Sophia"]),
 ])

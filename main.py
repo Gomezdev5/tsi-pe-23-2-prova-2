@@ -1,8 +1,31 @@
 def processa_lista(valores):
-    pass
+    pessoas = {
+    "Leonardo": 30,
+    "Mariana": 15,
+    "Gustavo": 29,
+    "Bianca": 32,
+    "Vinícius": 18,
+    "Amanda": 26,
+    "Henrique": 11,
+    "Camila": 27,
+    "Felipe": 33,
+    "Juliana": 30,
+    }
+    lista = []  
+
+    for k, v in pessoas.items():
+        if v > 18:
+            lista.append(k) 
+    lista.sort()
+    return lista 
+
 
 def indice_menor(lista):
-    pass
+    lista1 = [1, 3, 5] 
+    lista2 = [2, 4, 6, 8, 10]
+
+    lista = lista1.append(lista2)
+    
 
 def organizar_alturas(lista):
     pass
