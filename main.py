@@ -23,15 +23,44 @@ def processa_lista(valores):
 def indice_menor(lista):
     lista1 = [1, 3, 5] 
     lista2 = [2, 4, 6, 8, 10]
+    lista3 = len(lista1, lista2)
+    lista =[]
+    for i in lista3:
+        if [i] >0:
+            lista.append(i)
 
-    lista = lista1.append(lista2)
+def ler_valores():
+    lista = []
+    while True:
+        valor = int(input("DIgite um valor: "))
+        if valor == 0:
+            break
+        lista.appemd(valor)
+
+def processa_lista(lista:
+    pares, impares = [], []
+    antigo_par, antigo_impar = 0,0
+    for item in lista:
+        if item % 2 == 0:
+            if len(pares) >= 5:
+                pares[antigo_par] = item
+                antigo_par += 1
+            else:
+                pares.append(item)
+        else:
+        if len(impares) >= 5:
+                impares[antigo_impar] = item
+                antigo_impares += 1
+            else:
+                impares.append(item)
+            
+
+    return pares, impares
+    
     
 
 def organizar_alturas(lista):
-    pass
 
-def ler_valores():
-    pass
 
 def formatar_alturas(lista):
     pass
